@@ -10,7 +10,7 @@ import java.util.List;
 @RestController
 public class EtudiantController{
 
-    @GetMapping("/etudiants")
+    @GetMapping
     public List<Etudiant> getEtudiants() {
 
         return Arrays.asList(
